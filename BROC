@@ -1,1 +1,4 @@
+
 CONFIGS("brocbuild/data@v1.0.0@tag")
+
+STATIC_LIBRARY("log", Sources("log.cpp"))
