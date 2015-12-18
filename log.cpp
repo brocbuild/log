@@ -16,7 +16,9 @@
 
 #include "brocbuild/log/log.h"
 
-log::log()
+log::log():
+log_file(),
+log_dir()
 {
 }
 
