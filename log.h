@@ -26,9 +26,10 @@ class log {
     public:
         log();
         ~log();
-        void set_log_file(std::string filename);
+    public:
+        void set_log_file(std::string &filename);
         std::string get_log_file();
-        void set_log_dir(std::string dirname);
+        void set_log_dir(std::string &dirname);
         std::string get_log_dir();
     private:
         std::string log_file;
