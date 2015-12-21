@@ -26,7 +26,7 @@ log::~log()
 {
 }
 
-void log::set_log_file(std::string filename)
+void log::set_log_file(std::string &filename)
 {
     log_file = filename;
 }
@@ -36,7 +36,7 @@ std::string log::get_log_file()
     return log_file;
 }
 
-void log::set_log_dir(std::string dirname)
+void log::set_log_dir(std::string &dirname)
 {
     log_dir = dirname;
 }
